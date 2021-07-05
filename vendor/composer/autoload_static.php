@@ -47,6 +47,10 @@ class ComposerStaticInitb019d30233a43b025cd457dcbe5ae430
         array (
             'DI\\' => 3,
         ),
+        'A' => 
+        array (
+            'App\\' => 4,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -108,6 +112,10 @@ class ComposerStaticInitb019d30233a43b025cd457dcbe5ae430
         array (
             0 => __DIR__ . '/..' . '/php-di/php-di/src',
         ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
     );
 
     public static $prefixesPsr0 = array (
@@ -122,6 +130,7 @@ class ComposerStaticInitb019d30233a43b025cd457dcbe5ae430
 
     public static $classMap = array (
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
